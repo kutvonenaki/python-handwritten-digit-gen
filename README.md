@@ -5,7 +5,7 @@ Handwritten digit generator and .png saver written in python based on MNIST data
 Code is partly more polished, partly less polished.
 
 Sample output from MNIST:  
-![Sample output from MNIST](sample_output.png?raw=true "Sample output from MNIST")
+![Sample output from MNIST](output_image.png?raw=true "Sample output from MNIST")
 
 Sample output from CVAE:  
 ![Sample output from MNIST](output_image_vae.png?raw=true "Sample output from VAE")
