@@ -1,0 +1,8 @@
+include MANIFEST.in
+include LICENSE
+include README.rst
+include get_data.sh
+include test.sh
+recursive-include tf_vae_files *
+recursive-include digitgenerator *.py
+recursive-include tests *.py
