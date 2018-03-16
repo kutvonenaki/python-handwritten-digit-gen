@@ -261,7 +261,7 @@ class Digitgenerator(object):
                 plt.imsave(filename, self._stacked_image,cmap='gray')
                 
     #print the last generated image
-    def print_latest_(self,size=(15,5)):
+    def print_latest(self,size=(15,5)):
     
         plt.figure(figsize=(15, 5))
         plt.imshow(self._stacked_image, vmin=0, vmax=1, cmap="gray")
