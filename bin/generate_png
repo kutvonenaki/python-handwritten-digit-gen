@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument("--width", type=int,
                         help="The total image width. At the moment disabled feature")
 	
-	parser.add_argument("--cvae", default=0, type=int,
+    parser.add_argument("--cvae", default=0, type=int,
                         help="0 for sampling from MNIST data, 1 for using the conditional variational autoencoder")
 
     parser.add_argument("--outfile", default="./image_out.png",
