@@ -87,8 +87,8 @@ class Digitgenerator(object):
     def get_filenames(cls,mnist_folder,preprocessed_folder):
     
         #file locations in IDX format
-        mnistlabels = os.path.join(mnist_folder, "train-labels.idx1-ubyte")
-        mnistimages = os.path.join(mnist_folder, "train-images.idx3-ubyte")
+        mnistlabels = os.path.join(mnist_folder, "train-labels-idx1-ubyte")
+        mnistimages = os.path.join(mnist_folder, "train-images-idx3-ubyte")
 
         #processed to numpy arrays
         labelsfile = os.path.join(preprocessed_folder, "labelsarray.npy")
